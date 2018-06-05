@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fauzi.hilmy.app5revisi.MainActivity">
+
+    <include
+        layout="@layout/only_support" />
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#ea1010"
+        app:itemIconTint="@android:color/white"
+        app:itemTextColor="#ffffff"
+        app:itemBackground="@android:color/holo_red_dark"
+        app:menu="@menu/bottom_navigation_items">
+    </android.support.design.widget.BottomNavigationView>
+
+</RelativeLayout>

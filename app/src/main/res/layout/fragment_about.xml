@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="2dp"
+    android:background="#ea4817"
+    android:orientation="vertical"
+    tools:context="fauzi.hilmy.app5revisi.ActivityAbout">
+
+    <ImageButton
+        android:id="@+id/btnApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="#ea4817"
+        android:src="@drawable/app_w" />
+
+    <ImageButton
+        android:id="@+id/btnNawawi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="#ea4817"
+        android:src="@drawable/nawawi_w" />
+
+    <ImageButton
+        android:id="@+id/btnDeveloper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="#ea4817"
+        android:src="@drawable/developer_w" />
+</LinearLayout>

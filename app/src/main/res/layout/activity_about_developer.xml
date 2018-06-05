@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ea4817"
+    android:orientation="vertical"
+    tools:context="fauzi.hilmy.app5revisi.AboutDeveloper">
+
+
+
+    <ImageButton
+        android:id="@+id/btnGithub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#ea4817"
+        android:src="@drawable/github_about" />
+
+    <ImageButton
+        android:id="@+id/btnLinkedin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#ea4817"
+        android:src="@drawable/linkedin_about" />
+
+    <ImageButton
+        android:id="@+id/btnLine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#ea4817"
+        android:src="@drawable/line_about" />
+
+    <ImageButton
+        android:id="@+id/btnInstagram"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#ea4817"
+        android:src="@drawable/instagram_about" />
+
+    <ImageButton
+        android:id="@+id/btnWordpress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="#ea4817"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/wordpress_about" />
+
+
+
+</LinearLayout>
